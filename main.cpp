@@ -1,22 +1,48 @@
 #include "raylib.h"
 #include <iostream>
+#include "TheBall.h"
 
 using namespace std;
 
+    void Start();
+    void Update();
+    void Draw();
+    void End();
+
+TheBall theBall;
+
 int main() {
 
-    
-    cout << "Hello World" << endl;
+    Start();
 
-    InitWindow(300, 300, "My first Raylib window!");
-    SetTargetFPS(60);
-
-    while (!WindowShouldClose()) {
-        BeginDrawing();
-        ClearBackground(DARKGREEN);
-        EndDrawing();
+    while (!WindowShouldClose())
+    {
+        Update();
+        Draw();
     }
 
-    CloseWindow();
+    End();
     return 0;
+}
+
+void Start()
+{
+    InitWindow(800, 800, "Pong Ping");
+    SetTargetFPS(60);
+    theBall.Start();
+}
+
+void Update() 
+{
+    theBall.Update();
+}
+
+void Draw()
+{
+    theBall.Draw();
+}
+
+void End()
+{
+    CloseWindow();
 }
