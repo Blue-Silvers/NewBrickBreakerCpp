@@ -39,7 +39,12 @@ void Update()
 
 void Draw()
 {
+    BeginDrawing();
+
+    ClearBackground(DARKBLUE);
     theBall.Draw();
+
+    EndDrawing();
 }
 
 void End()
