@@ -8,7 +8,7 @@ TheBall::TheBall()
 void TheBall::Start()
 {
 	mBallCenterX = GetScreenWidth() / 2;
-	mBallCenterY = GetScreenHeight() / 4;
+	mBallCenterY = GetScreenHeight() / 1.5;
 	mBallRadius = 25;
 	mBallColor = RED;
 	mBallSpeedX = 300 ;
@@ -17,38 +17,37 @@ void TheBall::Start()
 
 void TheBall::Update() 
 {
-	
-	if (IsKeyDown(KEY_LEFT) && mBallSpeedX > 0)
+	if (IsKeyDown(KEY_SPACE))
 	{
-		mBallSpeedX *= -1;
-	}
-	else if (IsKeyDown(KEY_RIGHT) && mBallSpeedX < 0)
-	{
-		mBallSpeedX *= -1;
-	}
-	else if (IsKeyDown(KEY_UP) && mBallSpeedY > 0)
-	{
-		mBallSpeedY *= -1;
-	}
-	else if (IsKeyDown(KEY_DOWN) && mBallSpeedY < 0)
-	{
-		mBallSpeedY *= -1;
+		mBallLunch = true;
 	}
 
-	mBallCenterX += mBallSpeedX * GetFrameTime();
-	if ((mBallCenterX >= GetScreenWidth() - mBallRadius / 2 && mBallSpeedX > 0) || (mBallCenterX <= mBallRadius / 2 && mBallSpeedX < 0))
+	if (mBallLunch)
 	{
-		mBallSpeedX *= -1;
-	}
+		mBallCenterX += mBallSpeedX * GetFrameTime();
+		if ((mBallCenterX >= GetScreenWidth() - mBallRadius / 2 && mBallSpeedX > 0) || (mBallCenterX <= mBallRadius / 2 && mBallSpeedX < 0))
+		{
+			mBallSpeedX *= -1;
+		}
 
-	mBallCenterY += mBallSpeedY * GetFrameTime();
-	if ((mBallCenterY >= GetScreenWidth() - mBallRadius / 2 && mBallSpeedY > 0) || (mBallCenterY <= mBallRadius / 2 && mBallSpeedY < 0))
+		mBallCenterY += mBallSpeedY * GetFrameTime();
+		if ((mBallCenterY >= GetScreenWidth() - mBallRadius / 2 && mBallSpeedY > 0) || (mBallCenterY <= mBallRadius / 2 && mBallSpeedY < 0))
+		{
+			mBallSpeedY *= -1;
+		}
+	}
+	else
 	{
-		mBallSpeedY *= -1;
+		DrawText("Press space for start", 120,300, 50, WHITE);
+		mBallSpeedX = 300;
+		mBallSpeedY = -300;
+		mBallCenterX = GetScreenWidth() / 2;
+		mBallCenterY = GetScreenHeight() / 1.5;
+		//mBallX = paddle.mPaddleX + paddle.mPaddleWidth / 2;
+		//mBallY = paddle.mPaddleY - 10 - mBallRadius;
 	}
-
-
 }
+
 
 void TheBall::Draw() 
 {

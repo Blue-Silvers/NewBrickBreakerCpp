@@ -1,1 +1,11 @@
-﻿  Raylib Starter Project.vcxproj -> C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\x64\Debug\Raylib Starter Project.exe
+﻿  TheBall.cpp
+C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\TheBall.h(7,40): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\TheBall.h(8,41): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\TheBall.cpp(10,34): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\TheBall.cpp(11,35): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\TheBall.cpp(44,35): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\TheBall.cpp(45,36): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\TheBall.cpp(54,41): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\TheBall.cpp(54,27): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\TheBall.cpp(54,13): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+  Raylib Starter Project.vcxproj -> C:\Users\fury8\OneDrive\Documents\GitHub\PongCpp\x64\Debug\Raylib Starter Project.exe

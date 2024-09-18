@@ -12,7 +12,7 @@ public:
 	float mPaddleY = 725;
 	float mPaddleWidth = 150;
 	Paddle();
-	void Update(int screenWidth);
+	void Update();
 	void Draw();
 	void BonusSize();
 	void BackSize();

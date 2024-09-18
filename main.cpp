@@ -1,6 +1,8 @@
 #include "raylib.h"
 #include <iostream>
 #include "TheBall.h"
+#include "Paddle.h"
+
 
 using namespace std;
 
@@ -10,6 +12,7 @@ using namespace std;
     void End();
 
 TheBall theBall;
+Paddle player;
 
 int main() {
 
@@ -35,6 +38,7 @@ void Start()
 void Update() 
 {
     theBall.Update();
+    player.Update();
 }
 
 void Draw()
@@ -43,6 +47,7 @@ void Draw()
 
     ClearBackground(DARKBLUE);
     theBall.Draw();
+    player.Draw();
 
     EndDrawing();
 }
