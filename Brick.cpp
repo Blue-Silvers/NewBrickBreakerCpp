@@ -4,18 +4,20 @@ Brick::Brick()
 
 }
 
-void Brick::Start(int row, int column)
+void Brick::Start(int row, int column, TheBall& theBall)
 {
     mBrickLife = 2;
     mBrickX = 50 + 1.1 * mBrickWidth * (column * 1);
     mBrickY = 75 + 2 * mBrickHeight * (row + 1);
+    ball = &theBall;
 
     SetColor(row + 1);
 }
 
-bool Brick::Update(TheBall ball)
+bool Brick::Update()
 {
-    if (mBrickLife != 0 && ball.mBallCenterX - ball.mBallRadius < mBrickX + mBrickWidth && ball.mBallCenterX + ball.mBallRadius > mBrickX && ball.mBallCenterY - ball.mBallRadius < mBrickY + mBrickHeight && ball.mBallCenterY + ball.mBallRadius > mBrickY)
+    
+    if (mBrickLife != 0 && ball->mBallCenterX - ball->mBallRadius < mBrickX + mBrickWidth && ball->mBallCenterX + ball->mBallRadius > mBrickX && ball->mBallCenterY - ball->mBallRadius < mBrickY + mBrickHeight && ball->mBallCenterY + ball->mBallRadius > mBrickY)
     {
         mBrickLife -= 1;
         return true;

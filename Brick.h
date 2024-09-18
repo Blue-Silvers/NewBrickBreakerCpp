@@ -9,6 +9,7 @@ private:
 
 	int mBrickRow = 0;
 	int mBrickColumn = 0;
+	TheBall* ball;
 
 public:
 	int mBrickLife = 2;
@@ -17,8 +18,8 @@ public:
 	float mBrickWidth = 100;
 	float mBrickHeight = 20;
 	Brick();
-	bool Update(TheBall ball);
+	bool Update();
 	void Draw();
-	void Start(int row, int column);
+	void Start(int row, int column, TheBall& ball);
 	void SetColor(int row);
 };

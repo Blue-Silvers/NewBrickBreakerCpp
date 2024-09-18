@@ -5,7 +5,7 @@ TheBall::TheBall()
 
 }
 
-void TheBall::Start()
+void TheBall::Start(Paddle& paddle)
 {
 	mBallCenterX = GetScreenWidth() / 2;
 	mBallCenterY = GetScreenHeight() / 1.5;
@@ -13,11 +13,11 @@ void TheBall::Start()
 	mBallColor = RED;
 	mBallSpeedX = 300 ;
 	mBallSpeedY = 300 ;
+	newPaddle = &paddle;
 }
 
-void TheBall::Update(Paddle& paddle)
+void TheBall::Update()
 {
-	Paddle* newPaddle = &paddle;
 	if (IsKeyDown(KEY_SPACE))
 	{
 		mBallLunch = true;
@@ -34,6 +34,25 @@ void TheBall::Update(Paddle& paddle)
 		mBallCenterY += mBallSpeedY * GetFrameTime();
 		if ((mBallCenterY >= GetScreenHeight() - mBallRadius / 2 && mBallSpeedY > 0) || (mBallCenterY <= mBallRadius / 2 && mBallSpeedY < 0))
 		{
+			mBallSpeedY *= -1;
+		}
+
+		if (mBallCenterY + mBallRadius >= newPaddle->mPaddleY && mBallCenterX + mBallRadius > newPaddle->mPaddleX && mBallCenterX - mBallRadius < newPaddle->mPaddleX + newPaddle->mPaddleWidth)
+		{
+			if (mBallCenterX > newPaddle->mPaddleX + newPaddle->mPaddleWidth / 2)
+			{
+				float distanceRight = newPaddle->mPaddleX + newPaddle->mPaddleWidth / 2 - mBallCenterX;
+				mBallSpeedX = -mBallSpeedMax * (distanceRight / (newPaddle->mPaddleWidth / 2));
+			}
+			else if (mBallCenterX < newPaddle->mPaddleX + newPaddle->mPaddleWidth / 2)
+			{
+				float distanceLeft = newPaddle->mPaddleX + newPaddle->mPaddleWidth / 2 - mBallCenterX;
+				mBallSpeedX = -mBallSpeedMax * (distanceLeft / (newPaddle->mPaddleWidth / 2));
+			}
+			else
+			{
+				mBallCenterX = 0;
+			}
 			mBallSpeedY *= -1;
 		}
 	}

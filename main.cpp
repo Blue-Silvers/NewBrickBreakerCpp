@@ -37,7 +37,7 @@ void Start()
 {
     InitWindow(1200, 800, "Pong Ping");
     SetTargetFPS(60);
-    theBall.Start();
+    theBall.Start(player);
 
     column = 10;
     row = 5;
@@ -45,7 +45,7 @@ void Start()
     {
         for (int j = 0; j < column; j++)
         {
-            theWall[i][j].Start(i, j);
+            theWall[i][j].Start(i, j, theBall);
             nbBrick += 1;
         }
     }
@@ -54,14 +54,14 @@ void Start()
 
 void Update() 
 {
-    theBall.Update(player);
+    theBall.Update();
     player.Update();
 
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < column; j++)
         {
-            if (theWall[i][j].Update(theBall))
+            if (theWall[i][j].Update())
             {
                 theBall.CollideBrick();
                 nbBrick -= 1;
