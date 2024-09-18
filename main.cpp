@@ -3,6 +3,7 @@
 #include "TheBall.h"
 #include "Paddle.h"
 #include "Brick.h"
+#include "Bonus.h"
 
 
 using namespace std;
@@ -18,6 +19,7 @@ int column = 10;
 int row = 5;
 int nbBrick = 0;
 Brick theWall[14][10];
+Bonus bonus[14][10];
 int score = 0;
 Font ft;
 
@@ -71,6 +73,20 @@ void Update()
                 theBall.CollideBrick();
                 score += 100;
                 nbBrick -= returnBrick;
+                int random = rand() % 10;
+                if (random == 5)
+                {
+                    bonus[i][j].Start(theWall[i][j].mBrickX, theWall[i][j].mBrickY, theWall[i][j].mBrickWidth, theWall[i][j].mBrickHeight);
+                }
+            }
+            if (bonus[i][j].Update(player))
+            {
+                player.BonusSize(bonus[i][j].mPaddleBonus);
+                score += 200;
+            }
+            if (bonus[i][j].Time() == true)
+            {
+                player.BackSize(bonus[i][j].mPaddleBonus);
             }
         }
     }
@@ -89,6 +105,7 @@ void Draw()
         for (int j = 0; j < column; j++)
         {
             theWall[i][j].Draw();
+            bonus[i][j].Draw();
         }
     }
 
