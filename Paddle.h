@@ -14,6 +14,6 @@ public:
 	Paddle();
 	void Update();
 	void Draw();
-	void BonusSize(bool paddleBonus);
-	void BackSize(bool paddleBonus);
+	void Bonus(bool paddleBonus);
+	void BackBonus(bool paddleBonus);
 };

@@ -29,7 +29,7 @@ void Paddle::Draw()
     DrawRectangle(mPaddleX, mPaddleY, mPaddleWidth, mPaddleHeight, mPaddleColor);
 }
 
-void Paddle::BonusSize(bool paddleBonus)
+void Paddle::Bonus(bool paddleBonus)
 {
     if (paddleBonus == true)
     {
@@ -41,7 +41,7 @@ void Paddle::BonusSize(bool paddleBonus)
     }
 }
 
-void Paddle::BackSize(bool paddleBonus)
+void Paddle::BackBonus(bool paddleBonus)
 {
     if(paddleBonus == true)
     {
