@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\TheBall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:TheBall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\TheBall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:TheBall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Bonus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Bonus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -15,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -27,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Bonus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\TheBall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:TheBall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Interface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Interface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\TheBall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:TheBall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -54,24 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Paddle.h",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Paddle.h",
               "RelativeDocumentMoniker": "Paddle.h",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Paddle.h",
               "RelativeToolTip": "Paddle.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-16T15:00:46.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Brick.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Brick.cpp",
               "RelativeDocumentMoniker": "Brick.cpp",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Interface.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Interface.cpp",
               "RelativeDocumentMoniker": "Interface.cpp",
@@ -123,20 +123,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Bonus.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Bonus.cpp",
               "RelativeDocumentMoniker": "Bonus.cpp",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Bonus.cpp",
               "RelativeToolTip": "Bonus.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-16T15:02:00.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Bonus.h",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Bonus.h",
               "RelativeDocumentMoniker": "Bonus.h",
@@ -149,73 +149,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Paddle.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Paddle.cpp",
               "RelativeDocumentMoniker": "Paddle.cpp",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Paddle.cpp",
               "RelativeToolTip": "Paddle.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAADwvzMAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-16T15:01:52.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "TheBall.h",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\TheBall.h",
               "RelativeDocumentMoniker": "TheBall.h",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\TheBall.h",
               "RelativeToolTip": "TheBall.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-16T13:08:31.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAFMAAAA5AAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAH8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-16T12:57:43.125Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "5838b8be-c04f-400f-b35c-1b3bf5ef98c3",
-        "Display": 0,
-        "X": 784,
-        "Y": 155,
-        "Width": 1594,
-        "Height": 766,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "TheBall.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\TheBall.cpp",
               "RelativeDocumentMoniker": "TheBall.cpp",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\TheBall.cpp",
               "RelativeToolTip": "TheBall.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-16T13:08:32.964Z",
               "EditorCaption": ""

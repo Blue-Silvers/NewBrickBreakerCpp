@@ -9,6 +9,7 @@
 using namespace std;
 
     void Start();
+    void ReStart();
     void Update();
     void Draw();
     void End();
@@ -81,14 +82,19 @@ void Update()
             }
             if (bonus[i][j].Update(player))
             {
-                player.BonusSize(bonus[i][j].mPaddleBonus);
+                player.Bonus(bonus[i][j].mPaddleBonus);
                 score += 200;
             }
             if (bonus[i][j].Time() == true)
             {
-                player.BackSize(bonus[i][j].mPaddleBonus);
+                player.BackBonus(bonus[i][j].mPaddleBonus);
             }
         }
+    }
+
+    if (theBall.mBallLife < 0)
+    {
+        ReStart();
     }
 }
 
@@ -112,7 +118,25 @@ void Draw()
 
     DrawTextEx(ft, TextFormat("%08i", score), Vector2{(float)(GetScreenWidth() / 2.3), 5 }, 50, 5, WHITE);
     DrawTextEx(ft, TextFormat("Bricks : %02i", nbBrick), Vector2{ 5, 5 }, 50, 5, WHITE);
+    DrawTextEx(ft, TextFormat("Life : %01i", theBall.mBallLife), Vector2 { (float)(GetScreenWidth() - 150), 5 }, 50, 5, WHITE);
     EndDrawing();
+}
+
+void ReStart()
+{
+    theBall.Start(player);
+    nbBrick = 0;
+    column = 10;
+    row = 5;
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < column; j++)
+        {
+            theWall[i][j].Start(i, j, theBall);
+            nbBrick += 1;
+        }
+    }
+    score = 0;
 }
 
 void End()

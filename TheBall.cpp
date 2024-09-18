@@ -14,6 +14,7 @@ void TheBall::Start(Paddle& paddle)
 	mBallSpeedX = 300 ;
 	mBallSpeedY = 300 ;
 	newPaddle = &paddle;
+	mBallLife = 3;
 }
 
 void TheBall::Update()
@@ -60,6 +61,7 @@ void TheBall::Update()
 			}
 			mBallSpeedY *= -1;
 		}
+
 	}
 	else
 	{

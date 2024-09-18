@@ -1,8 +1,19 @@
-﻿  Bonus.cpp
-C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\Bonus.cpp(12,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\Bonus.cpp(13,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\Bonus.cpp(53,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\Bonus.cpp(53,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\Bonus.cpp(53,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\Bonus.cpp(69,1): warning C4715: 'Bonus::Time': not all control paths return a value
+﻿  TheBall.cpp
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.h(16,40): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.h(17,41): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.cpp(10,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.cpp(11,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.cpp(71,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.cpp(72,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.cpp(84,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.cpp(84,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.cpp(84,13): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.h(16,40): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\TheBall.h(17,41): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\main.cpp(80,125): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\main.cpp(80,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\main.cpp(80,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\main.cpp(80,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
   Raylib Starter Project.vcxproj -> C:\Users\enzo.lahana\Downloads\Raylib-Starter-Project-main\x64\Debug\Raylib Starter Project.exe
