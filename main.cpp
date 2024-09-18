@@ -9,6 +9,7 @@
 using namespace std;
 
     void Start();
+    void NextStage();
     void ReStart();
     void Update();
     void Draw();
@@ -96,6 +97,11 @@ void Update()
     {
         ReStart();
     }
+
+    if (nbBrick == 0) 
+    {
+        NextStage();
+    }
 }
 
 void Draw()
@@ -137,6 +143,22 @@ void ReStart()
         }
     }
     score = 0;
+}
+
+void NextStage()
+{
+    int newLife = theBall.mBallLife + 1;
+    theBall.Start(player);
+    theBall.mBallLife = newLife;
+    row += 2;
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < column; j++)
+        {
+            theWall[i][j].Start(i, j, theBall);
+            nbBrick += 1;
+        }
+    }
 }
 
 void End()
