@@ -2,6 +2,7 @@
 #include <iostream>
 #include "TheBall.h"
 #include "Paddle.h"
+#include "Brick.h"
 
 
 using namespace std;
@@ -13,6 +14,10 @@ using namespace std;
 
 TheBall theBall;
 Paddle player;
+int column = 10;
+int row = 5;
+int nbBrick = 0;
+Brick theWall[14][10];
 
 int main() {
 
@@ -30,15 +35,39 @@ int main() {
 
 void Start()
 {
-    InitWindow(800, 800, "Pong Ping");
+    InitWindow(1200, 800, "Pong Ping");
     SetTargetFPS(60);
     theBall.Start();
+
+    column = 10;
+    row = 5;
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < column; j++)
+        {
+            theWall[i][j].Start(i, j);
+            nbBrick += 1;
+        }
+    }
+
 }
 
 void Update() 
 {
-    theBall.Update();
+    theBall.Update(player);
     player.Update();
+
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < column; j++)
+        {
+            if (theWall[i][j].Update(theBall))
+            {
+                theBall.CollideBrick();
+                nbBrick -= 1;
+            }
+        }
+    }
 }
 
 void Draw()
@@ -48,6 +77,14 @@ void Draw()
     ClearBackground(DARKBLUE);
     theBall.Draw();
     player.Draw();
+
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < column; j++)
+        {
+            theWall[i][j].Draw();
+        }
+    }
 
     EndDrawing();
 }
