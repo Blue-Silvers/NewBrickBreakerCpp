@@ -16,6 +16,7 @@ public :
 	float mBallCenterX = GetScreenWidth() / 2;
 	float mBallCenterY = GetScreenHeight() / 2;
 	int mBallRadius = 20;
+	int mBallLife = 3;
 	TheBall();
 	void Update();
 	void Start(Paddle& paddle);

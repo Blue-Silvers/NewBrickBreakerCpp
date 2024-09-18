@@ -32,9 +32,14 @@ void TheBall::Update()
 		}
 
 		mBallCenterY += mBallSpeedY * GetFrameTime();
-		if ((mBallCenterY >= GetScreenHeight() - mBallRadius / 2 && mBallSpeedY > 0) || (mBallCenterY <= mBallRadius / 2 && mBallSpeedY < 0))
+		if (mBallCenterY <= mBallRadius / 2 && mBallSpeedY < 0)
 		{
 			mBallSpeedY *= -1;
+		}
+		else if (mBallCenterY + mBallRadius > GetScreenHeight())
+		{
+			mBallLunch = false;
+			mBallLife -= 1;
 		}
 
 		if (mBallCenterY + mBallRadius >= newPaddle->mPaddleY && mBallCenterX + mBallRadius > newPaddle->mPaddleX && mBallCenterX - mBallRadius < newPaddle->mPaddleX + newPaddle->mPaddleWidth)
