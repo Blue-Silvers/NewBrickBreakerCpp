@@ -23,12 +23,16 @@
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Paddle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Paddle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Bonus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Bonus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Paddle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Paddle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Interface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Bonus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|solutionrelative:Bonus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{792081F7-80EC-4AA8-8CF4-A08ED2FEAE12}|Raylib Starter Project.vcxproj|C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Bonus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -58,7 +58,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Paddle.h",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Paddle.h",
               "RelativeDocumentMoniker": "Paddle.h",
@@ -76,9 +76,10 @@
               "RelativeDocumentMoniker": "Brick.cpp",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Brick.cpp",
               "RelativeToolTip": "Brick.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-16T15:01:58.792Z"
+              "WhenOpened": "2024-09-16T15:01:58.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,13 +89,14 @@
               "RelativeDocumentMoniker": "Brick.h",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Brick.h",
               "RelativeToolTip": "Brick.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-16T14:59:54.848Z"
+              "WhenOpened": "2024-09-16T14:59:54.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Bonus.h",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Bonus.h",
               "RelativeDocumentMoniker": "Bonus.h",
@@ -102,7 +104,8 @@
               "RelativeToolTip": "Bonus.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-16T14:59:34.994Z"
+              "WhenOpened": "2024-09-16T14:59:34.994Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -114,11 +117,12 @@
               "RelativeToolTip": "Interface.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-16T15:01:26.989Z"
+              "WhenOpened": "2024-09-16T15:01:26.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Interface.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Interface.cpp",
               "RelativeDocumentMoniker": "Interface.cpp",
@@ -142,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Paddle.cpp",
               "DocumentMoniker": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\Paddle.cpp",
               "RelativeDocumentMoniker": "Paddle.cpp",
@@ -150,7 +154,8 @@
               "RelativeToolTip": "Paddle.cpp",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-16T15:01:52.623Z"
+              "WhenOpened": "2024-09-16T15:01:52.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -160,7 +165,7 @@
               "RelativeDocumentMoniker": "TheBall.cpp",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\TheBall.cpp",
               "RelativeToolTip": "TheBall.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-16T13:08:32.964Z",
               "EditorCaption": ""
@@ -173,7 +178,7 @@
               "RelativeDocumentMoniker": "TheBall.h",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\TheBall.h",
               "RelativeToolTip": "TheBall.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-16T13:08:31.278Z",
               "EditorCaption": ""
@@ -186,7 +191,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\enzo.lahana\\Downloads\\Raylib-Starter-Project-main\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAYAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAGAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-16T12:57:43.125Z",
               "EditorCaption": ""

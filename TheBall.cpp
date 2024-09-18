@@ -9,7 +9,7 @@ void TheBall::Start(Paddle& paddle)
 {
 	mBallCenterX = GetScreenWidth() / 2;
 	mBallCenterY = GetScreenHeight() / 1.5;
-	mBallRadius = 25;
+	mBallRadius = 15;
 	mBallColor = RED;
 	mBallSpeedX = 300 ;
 	mBallSpeedY = 300 ;
@@ -84,6 +84,5 @@ void TheBall::Draw()
 
 void TheBall::CollideBrick()
 {
-	mBallSpeedX *= -1;
 	mBallSpeedY *= -1;
 }

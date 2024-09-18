@@ -18,7 +18,7 @@ public:
 	float mBrickWidth = 100;
 	float mBrickHeight = 20;
 	Brick();
-	bool Update();
+	int Update();
 	void Draw();
 	void Start(int row, int column, TheBall& ball);
 	void SetColor(int row);

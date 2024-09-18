@@ -14,18 +14,29 @@ void Brick::Start(int row, int column, TheBall& theBall)
     SetColor(row + 1);
 }
 
-bool Brick::Update()
+int Brick::Update()
 {
     
     if (mBrickLife != 0 && ball->mBallCenterX - ball->mBallRadius < mBrickX + mBrickWidth && ball->mBallCenterX + ball->mBallRadius > mBrickX && ball->mBallCenterY - ball->mBallRadius < mBrickY + mBrickHeight && ball->mBallCenterY + ball->mBallRadius > mBrickY)
     {
         mBrickLife -= 1;
-        return true;
+        
+        if (mBrickLife == 0) 
+        {
+            return 1;
+        }
+        else 
+        {
+            return 0;
+        }
+        
     }
     else
     {
-        return false;
+        return 2;
     }
+
+
 }
 
 void Brick::Draw()

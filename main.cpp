@@ -18,6 +18,8 @@ int column = 10;
 int row = 5;
 int nbBrick = 0;
 Brick theWall[14][10];
+int score = 0;
+Font ft;
 
 int main() {
 
@@ -37,6 +39,8 @@ void Start()
 {
     InitWindow(1200, 800, "Pong Ping");
     SetTargetFPS(60);
+    ft = LoadFont("resources/fonts/jupiter_crash.png");
+
     theBall.Start(player);
 
     column = 10;
@@ -61,10 +65,12 @@ void Update()
     {
         for (int j = 0; j < column; j++)
         {
-            if (theWall[i][j].Update())
+            int returnBrick = theWall[i][j].Update();
+            if (returnBrick == 0 || returnBrick == 1)
             {
                 theBall.CollideBrick();
-                nbBrick -= 1;
+                score += 100;
+                nbBrick -= returnBrick;
             }
         }
     }
@@ -86,6 +92,9 @@ void Draw()
         }
     }
 
+
+    DrawTextEx(ft, TextFormat("%08i", score), Vector2{(float)(GetScreenWidth() / 2.3), 5 }, 50, 5, WHITE);
+    DrawTextEx(ft, TextFormat("Bricks : %02i", nbBrick), Vector2{ 5, 5 }, 50, 5, WHITE);
     EndDrawing();
 }
 

@@ -8,7 +8,7 @@ private :
 	Color mBallColor = RED;
 	float mBallSpeedX = 10;
 	float mBallSpeedY = 10;
-	float mBallSpeedMax = 300;
+	float mBallSpeedMax = 500;
 	bool mBallLunch = false;
 	Paddle* newPaddle;
 
